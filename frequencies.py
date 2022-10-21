@@ -10,9 +10,7 @@ def frequencies(items):
     for i in set_items:
         frequencies[str(i)] = getFrequencyOf(i, items)
 
-    
     return frequencies
-
 
 
 
